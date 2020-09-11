@@ -23,4 +23,60 @@ h1 {
 }
 
 /* add styles here */
+body {
+   padding: 40px 40px 40px 40px;
+}
 
+section {
+   width: 910px;
+   box-shadow: rgba(47,59,64,0.35);
+   padding-bottom: 40px;
+}
+
+div {
+   display: inline-block;
+   box-shadow:1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+ul {
+   list-style-type: none;
+}
+
+.column {
+   width: 300px;
+   background-color: white;
+   text-align: center;
+}
+
+section li:nth-child(even) {
+   background-color: rgba(47,59,64,0.35);
+}
+
+.featured {
+   background-color: #2F4F4F;
+   color: white;
+}
+
+.free {
+   background-color: #5bb189;
+}
+
+.standard {
+   background-color: #4b0082;
+}
+
+.professional {
+   background-color: #ec632a;
+}
+
+#confidence {
+   /* background-image: url(checkmark.svg); */
+   background-size: 24px;
+   background-color: #2F4F4F;
+   color: white;
+   width: 910px;
+}
+
+.price {
+   font-weight: 800;
+}
