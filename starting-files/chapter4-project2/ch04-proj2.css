@@ -29,13 +29,13 @@ body {
 
 section {
    width: 910px;
-   box-shadow: rgba(47,59,64,0.35);
-   padding-bottom: 40px;
+   box-shadow:1px 1px 10px rgba(0, 0, 0, 0.4);
+   margin-bottom: 40px;
 }
 
 div {
    display: inline-block;
-   box-shadow:1px 1px 10px rgba(0, 0, 0, 0.4);
+   
 }
 
 ul {
