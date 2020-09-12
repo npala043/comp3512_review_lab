@@ -26,85 +26,67 @@ h1 {
 body {
    padding: 40px 40px 40px 40px;
 }
-
 section {
    width: 910px;
    box-shadow:1px 1px 10px rgba(0, 0, 0, 0.4);
    margin-bottom: 40px;
 }
-
 div {
-   display: inline-block;
-   
+   display: inline-block; 
 }
-
 ul {
    list-style-type: none;
 }
-
 li, h3, .price, #confidence {
    padding: 20px 20px 20px 20px;
 }
-
 .column {
    width: 300px;
    background-color: white;
    text-align: center;
 }
-
 section li:nth-child(even) {
    background-color: rgba(47,59,64,0.35);
 }
-
 .featured {
    background-color: #2F4F4F;
    color: white;
 }
-
 .free {
    background-color: #5bb189;
 }
-
 .standard {
    background-color: #4b0082;
 }
-
 .professional {
    background-color: #ec632a;
 }
-
 #confidence {
    background-color: #2F4F4F;
    color: white;
    width: 910px;
 }
-
 h2 {
    font-size: 36px;
 }
-
 .price {
    font-weight: 800;
    font-size: 36px;
 }
-
 span {
    font-weight: 600;
    font-size: 18px;
 }
-
 #confidence li {
    background: url(checkmark.svg) no-repeat;
    background-size: 24px;
    background-position: left;
    padding-left: 35px;
 }
-
 a {
    text-decoration: none;
    color: #34c6eb;
 }
-
 section a {
    background-color: #3a6ba5;
    border-radius: 5px;
