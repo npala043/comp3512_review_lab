@@ -12,7 +12,7 @@
 </head>
 
 <body>
-   <form>
+   <form action="https://www.randyconnolly.com/tests/process.php" method="get">
       <fieldset>
          <legend>Advanced Art Work Search</legend>
 
@@ -27,17 +27,33 @@
             <label for="landscape">Landscape</label>
             <select id="genre" name="genre">
                <option value="" disabled selected>Select Genre</option>
-               <option value="baroque">Baroque</option>
-               <option value="renaissance">Renaissance</option>
-               <option value="realism">Realism</option>
+               <option value="0">Baroque</option>
+               <option value="1">Renaissance</option>
+               <option value="2">Realism</option>
             </select>
             <input type="submit" value="Filter">
          </div>
          <div id="settingsBox">
-
+            <select id="action" name="action">
+               <option value="" disabled selected>Bulk Actions</option>
+               <option value="0">Archive</option>
+               <option value="1">Edit</option>
+               <option value="2">Delete</option>
+               <option value="3">Collection</option>
+            </select>
+            <input type="submit" value="Apply To All">
          </div>
          <div id="paintingBox">
-
+            <table>
+               <caption>Paintings</caption>
+               <tr>
+                  <th>Title</th>
+                  <th>Artist</th>
+                  <th>Year</th>
+                  <th>Genre</th>
+                  <th>Actions</th>
+               </tr>
+            </table>
          </div>
       </fieldset>
    </form>
