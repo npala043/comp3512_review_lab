@@ -31,7 +31,7 @@
                <option value="1">Renaissance</option>
                <option value="2">Realism</option>
             </select>
-            <input type="submit" value="Filter">
+            <input class="submit" type="submit" value="Filter">
          </div>
          <div id="settingsBox">
             <select id="action" name="action">
@@ -41,7 +41,7 @@
                <option value="2">Delete</option>
                <option value="3">Collection</option>
             </select>
-            <input type="submit" value="Apply To All">
+            <input class="submit" type="submit" value="Apply To All">
          </div>
          <div id="paintingBox">
             <table>
@@ -59,57 +59,77 @@
                   <tr>
                      <td>
                         <input type="checkbox" name="index[]" value="0"/>
-                        <img src="images/125010.jpg">
+                        <img class="painting" src="images/125010.jpg">
                         <i>Portrait of Alida Christina Assink</i>
                      </td>
                      <td>Kruseman, Jan</td>
                      <td>1833</td>
                      <td>Realism</td>
-                     <td></td>
+                     <td>
+                        <button type="button" id="edit" onclick="location.href='http://www.example.com'"><img src="images/edit.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/archive.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/delete.png"></button>
+                     </td>
                   </tr>
                   <tr>
                      <td>
                         <input type="checkbox" name="index[]" value="1"/>
-                        <img src="images/125020.jpg">
+                        <img class="painting" src="images/125020.jpg">
                         <i>Portrait of William II, King of the Netherlands</i>
                      </td>
                      <td>Kruseman, Jan</td>
                      <td>1839</td>
                      <td>Realism</td>
-                     <td></td>
+                     <td>
+                        <button type="button" id="edit" onclick="location.href='http://www.example.com'"><img src="images/edit.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/archive.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/delete.png"></button>
+                     </td>
                   </tr>
                   <tr>
                      <td>
                         <input type="checkbox" name="index[]" value="2"/>
-                        <img src="images/130020.jpg">
-                        Three girls from the Amsterdam Orphanage</i>
+                        <img class="painting" src="images/130020.jpg">
+                        <i>Three girls from the Amsterdam Orphanage</i>
                      </td>
                      <td>Schwartze, Therese</td>
                      <td>1895</td>
                      <td>Realism</td>
-                     <td></td>
+                     <td>
+                        <button type="button" id="edit" onclick="location.href='http://www.example.com'"><img src="images/edit.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/archive.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/delete.png"></button>
+                     </td>
                   </tr>
                   <tr>
                      <td>
                         <input type="checkbox" name="index[]" value="3"/>
-                        <img src="images/127010.jpg">
+                        <img class="painting" src="images/127010.jpg">
                         <i>The Windmill at Wijk bij Duurstede</i>
                      </td>
                      <td>Ruisdael, Jacob van</td>
                      <td>1670</td>
                      <td>Dutch Golden Age</td>
-                     <td></td>
+                     <td>
+                        <button type="button" id="edit" onclick="location.href='http://www.example.com'"><img src="images/edit.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/archive.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/delete.png"></button>
+                     </td>
                   </tr>
                   <tr>
                      <td>
                         <input type="checkbox" name="index[]" value="4"/>
-                        <img src="images/128010.jpg">
+                        <img class="painting" src="images/128010.jpg">
                         <i>Morning Ride Along the Beach</i>
                      </td>
                      <td>Mauve, Anton</td>
                      <td>1871</td>
                      <td>Realism</td>
-                     <td></td>
+                     <td>
+                        <button type="button" id="edit" onclick="location.href='http://www.example.com'"><img src="images/edit.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/archive.png"></button>
+                        <button type="button" onclick="location.href='http://www.example.com'"><img src="images/delete.png"></button>
+                     </td>
                   </tr>
                </tbody>
             </table>

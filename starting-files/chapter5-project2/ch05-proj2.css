@@ -32,7 +32,8 @@ fieldset {
 
 div#searchBox, div#settingsBox, div#paintingBox {
    background-color: var(--color-neutral-100);
-
+   margin: 10px;
+   padding: 10px;
 }
 
 
@@ -55,10 +56,40 @@ caption {
 
 }
 
-img {
+.painting {
    width: 100px;
 }
 
+td input {
+   vertical-align: 43px;
+}
 
+td i {
+   vertical-align: 43px;
+   padding-left: 10px;
+}
 
+td {
+   padding-right: 30px;
+}
 
+tr {
+   border-bottom: 1px #000;
+   border-style: solid;
+}
+
+.submit {
+   background-color: var(--color-support-1-300);
+   color: white;
+}
+
+input, select, button {
+   padding: 7px;
+   border-style: none;
+   margin: 5px;
+   border-radius: 3px;
+}
+
+#edit {
+   background-color: var(--color-support-1-300);
+}
