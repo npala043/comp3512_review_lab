@@ -93,3 +93,7 @@ input, select, button {
 #edit {
    background-color: var(--color-support-1-300);
 }
+
+caption {
+   padding: 5px;
+}
