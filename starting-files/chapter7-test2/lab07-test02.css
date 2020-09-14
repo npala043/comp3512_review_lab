@@ -106,13 +106,21 @@ main h3 {
 
 .container {
    display: grid;
-   grid-gap: 0px;
-   grid-template-columns: repeat(2, minmax(80, 200)), auto;
+   grid-template-columns: repeat(2, minmax(80px, 200px)) auto;
    height: 100vh;
 }
 
-main {
+.theme ul {
    display: grid;
    grid-template-columns: repeat(2, 250px);
    grid-template-rows: repeat(2, 250px);
+   grid-gap: 1em;
+}
+
+.square {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size: 25px;
 }
