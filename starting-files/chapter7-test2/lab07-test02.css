@@ -104,3 +104,15 @@ main h3 {
 
 /* add styles here */
 
+.container {
+   display: grid;
+   grid-gap: 0px;
+   grid-template-columns: repeat(2, minmax(80, 200)), auto;
+   height: 100vh;
+}
+
+main {
+   display: grid;
+   grid-template-columns: repeat(2, 250px);
+   grid-template-rows: repeat(2, 250px);
+}
